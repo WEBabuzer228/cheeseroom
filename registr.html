@@ -23,7 +23,7 @@
 
 <!-- Для авторизованных -->
 <?php if (Auth\User::isAuthorized()): ?>
-<?php header('Refresh: 0; url=http:cheese');?>
+<?php header('Refresh: 0; url=login.html');?>
 
 <!-- Для НЕ авторизованных -->
 <?php else: ?>
@@ -40,7 +40,7 @@
 <input type="hidden" name="vremya" value="<?php echo $vremya=date('d-m-Y');?>">
 <input id="regsubmit" type="submit" value="Регистрация">
 </form>
-<p class="ogl"><a href="index.html">Войти</a></p>
+
 
 <!-- Конец условия -->
 <?php endif; ?>
