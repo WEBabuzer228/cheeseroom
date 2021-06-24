@@ -11,6 +11,7 @@
     <title>Регистрация на сайте</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
 <?php else: ?>
 <br><br>
 <form class="form-signin ajax" method="post" action="ajax.php">
-<p class="ogl">Регистрация</p>
+
 <div class="main-error alert alert-error hide"></div>
 <input name="username" type="text" class="input-block-level" placeholder="Ваш E-mail" autofocus>
 <input name="names" type="text" class="input-block-level" placeholder="Ваше имя">
@@ -45,8 +46,15 @@
 <?php endif; ?>
 
 
-</div></div>
 
+</div>
+</div>
+<div class="beuty">
+
+    <h2 class="titl">Зарегистрируйтесь сейчас и скорее заказывайте!</h2>
+    <p class="discrip">Наш сыр сделан лучшими сыроварами России!</p>
+    <img src="img/cheese/bestCheeseMaker.jpg" alt="">
+</div>
 <script src="jquery-2.0.3.min.js"></script><script src="ajax-form.js"></script>
 </body>
 </html>
